@@ -1,0 +1,32 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.TextField?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+   <Text text="Hello,Enter your name!"
+    fx:id = "textBar"
+      GridPane.rowIndex="0"
+      ></Text>
+    <TextField text = ""
+               fx:id="userIn"
+               GridPane.rowIndex="1"
+    />
+    <Button text = "Confirm"
+            fx:id="clickConfirm"
+            onAction="#clickedTheConfirm"
+            GridPane.rowIndex="1"
+            GridPane.columnIndex="2"
+            />
+    <Button text = "Reset"
+            fx:id="restart"
+            GridPane.rowIndex="3"/>
+    <Text text = "finalstats"
+          fx:id="displaystats"
+          GridPane.rowIndex="4"
+          />
+
+</GridPane>
