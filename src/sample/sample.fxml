@@ -23,10 +23,18 @@
             />
     <Button text = "Reset"
             fx:id="restart"
+            onAction="#Restart"
             GridPane.rowIndex="3"/>
-    <Text text = "finalstats"
+    <Text text = ""
           fx:id="displaystats"
           GridPane.rowIndex="4"
           />
-
+    <Text text=""
+          fx:id="displaystats5"
+          GridPane.rowIndex="5"
+          ></Text>
+    <Text text=""
+          fx:id="displaystats10"
+          GridPane.rowIndex="6"
+          ></Text>
 </GridPane>
